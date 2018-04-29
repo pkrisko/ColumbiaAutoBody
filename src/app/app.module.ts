@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
+import { Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AutoComponent } from './auto/auto.component';
@@ -21,9 +23,10 @@ import { AutoReviewsComponent } from './auto/auto-reviews/auto-reviews.component
     AutoTeamComponent,
     AutoBodyShopComponent,
     AutoContactUsComponent,
-    AutoReviewsComponent
+    AutoReviewsComponent,
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule
   ],
   providers: [],
