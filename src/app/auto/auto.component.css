@@ -1,25 +1,42 @@
+#navlogo {
+    /* margin: 0; */
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px 24%;
+    /* margin: 0 20%; */
+    /* width: 60%; */
+    background-color: #070707;
+    z-index: 900;
+}
+
 nav {
+    font-size: 14pt;
     width: 800px;
     display: flex;
-    justify-content: space-around;
-    background-color: #eeeeee;
-    margin: 0 auto;
-    padding: 0px 20%;
+    margin-left: 50px;
+    justify-content: space-between;
+    background-color: #070707;
 }
 
 img {
-    width: 100px;
-    height: 50px;
+    width: 180px;
+    height: 101.25px;
 }
 
 #footer {
-    background-color: #2186ff;
-    /* padding: 5px; */
+    background-color: #070707;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
+#top {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 50%; */
+    position: fixed;
+}
 
 #footer p {
     margin: 10px 0;

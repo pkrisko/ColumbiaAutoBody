@@ -1,14 +1,47 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>AutoApp</title>
   <base href="/">
 
+  <link rel="icon" type="image/x-icon" href="../assets/img/icons/gear1.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="../assets/img/tab-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-starturl" content="/">
+  <!-- <meta name="theme-color" content="#f48c5b"> -->
+
+  <link rel="manifest" href="/manifest.json">
 </head>
-<body>
+
+<body style="margin: 0">
   <app-root></app-root>
+  <!-- Service worker for when connection is lost -->
+  <!-- <div class="loading">
+    <h1>~$ loading Columbia Auto Body</h1>
+  </div> -->
+
+  <div class="loading">
+    
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(
+          function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed
+            console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
 </body>
+
 </html>

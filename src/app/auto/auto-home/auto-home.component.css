@@ -1,0 +1,47 @@
+#mainpic{
+    width: 100%;
+    height: 100%;
+    z-index: 850;
+}
+
+h1 {
+    margin: 20px auto;
+    width: 500px;
+    text-align: center; 
+}
+
+img {
+    height: 100px;
+}
+
+#certs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#certs ul {
+    display: inline;
+    list-style-type: none;
+}
+
+#certs ul li {
+    display: inline;
+}
+
+
+#bar {
+    height: 5px;
+    width: 100%;
+    background-color: #070707;
+    margin: 20px 0;
+}
+
+#revs {
+    display : flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}

@@ -21,8 +21,11 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@angular/service-worker": "^5.2.10",
+    "angular-http-server": "^1.4.5",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
+    "yarn": "^1.6.0",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
@@ -41,6 +44,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "sw-precache-webpack-plugin": "^0.11.5",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"

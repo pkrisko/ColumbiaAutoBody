@@ -10,7 +10,13 @@
 ## Re-development of Columbia Auto Body home page, focusing on UX and UI elements
 ## as well as DOM loading speed of dynamic content through Angular.
 
-Currently live at 'http://www.columbiaautobody.net'
+Live at 'http://www.columbiaautobody.net'
+
+## For Service-Worker production testing
+
+Run 'ng build --prod' to build the project
+'cd dist' to your static files directory
+Run 'angular-http-server -p 8080' or any other port to serve content
 
 ## Development server
 

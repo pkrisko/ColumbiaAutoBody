@@ -13,6 +13,10 @@ import { AutoBodyShopComponent } from './auto/auto-body-shop/auto-body-shop.comp
 import { AutoContactUsComponent } from './auto/auto-contact-us/auto-contact-us.component';
 import { AutoReviewsComponent } from './auto/auto-reviews/auto-reviews.component';
 
+// Serviceworker Variables
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +31,8 @@ import { AutoReviewsComponent } from './auto/auto-reviews/auto-reviews.component
   ],
   imports: [
     AppRoutingModule,
-    BrowserModule
+    BrowserModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production})
   ],
   providers: [],
   bootstrap: [AppComponent]
