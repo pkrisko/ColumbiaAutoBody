@@ -16,7 +16,7 @@ h1 {
 }
 
 img {
-    height: 100px;
+    height: 90px;
 }
 
 #certs {
@@ -36,6 +36,7 @@ img {
 #bar {
     height: 5px;
     width: 100%;
+    padding: 0 50%;
     background-color: #070707;
     margin: 50px 0;
 }

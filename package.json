@@ -23,6 +23,7 @@
     "@angular/router": "^5.2.0",
     "@angular/service-worker": "^5.2.10",
     "angular-http-server": "^1.4.5",
+    "bootstrap": "^4.1.1",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
     "yarn": "^1.6.0",

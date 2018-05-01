@@ -1,8 +1,8 @@
 #navlogo {
     display: flex;
     flex-direction: row;
-    height: 50px;
-    padding: 10px 50%;
+    height: 60px;
+    padding: 0 50%;
     background-color: #070707;
     z-index: 900;
 }
@@ -37,6 +37,8 @@ img {
     justify-content: space-evenly;
     /* width: 50%; */
     width: 100%;
+    /* width: 80%; */
+    /* width: 1120px; */
     position: fixed;
 }
 
