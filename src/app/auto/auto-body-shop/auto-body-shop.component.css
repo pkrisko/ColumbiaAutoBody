@@ -1,9 +1,8 @@
 #wrapper {
-    margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
 }
-
-#left, #right {
-    flex-direction: column;
+#wrapper img {
+    width: 480px;
 }

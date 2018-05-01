@@ -14,9 +14,9 @@ h1 {
     color: #070707;
     font-weight: lighter;
   }
-  body {
+  /* body {
     margin: 2em;
-  }
+  } */
   body, input[text], button {
     color: #888;
   }
@@ -24,7 +24,7 @@ h1 {
     cursor: pointer;
     cursor: hand;
   }
-  button {
+  /* button {
     background-color: #eee;
     border: none;
     padding: 5px 10px;
@@ -39,7 +39,7 @@ h1 {
     background-color: #eee;
     color: #aaa;
     cursor: auto;
-  }
+  } */
   
   /* Navigation link styles */
   nav a {
