@@ -1,37 +1,92 @@
-<div id="hometop">
+<!-- <div id="hometop">
     <img src="../../../assets/img/Paint_Bootha.jpg" alt="painting" id="mainpic">
-</div>
+</div> -->
 
+<!-- <ngb-carousel>
+    <ng-template ngbSlide>
+      <img src="../../../assets/img/Paint_Bootha.jpg" alt="Random first slide">
+      <div class="carousel-caption">
+        <h1>First slide label</h1>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="../../../assets/img/Slider-2.jpg" alt="Random second slide">
+      <div class="carousel-caption">
+        <h1>Second slide label</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="../../../assets/img/CAB-hybrid-slider1.jpg" alt="Random third slide">
+      <div class="carousel-caption">
+        <h1>Third slide label</h1>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel> -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
 
-<h1>Certifications</h1>
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../../assets/img/Paint_Bootha.jpg" alt="Los Angeles" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="../../../assets/img/Paint_Bootha.jpg" alt="Los Angeles" style="width:100%">
+          <!-- <img src="../../../assets/img/Slider-2.jpg" alt="Chicago" style="width:100%"> -->
+        </div>
+        <div class="carousel-item">
+            <img src="../../../assets/img/Paint_Bootha.jpg" alt="Los Angeles" style="width:100%">
+          <!-- <img src="../../../assets/img/CAB-hybrid-slider1.jpg" alt="New York" style="width:100%"> -->
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+
 <div class="container">
 <div id="certs">
-  <ul>
-    <li>
+  <ul class="justify-content-around">
+    <li class="flex-sm-wrap">
       <a href="https://www.ase.com/rb">
         <img src="../../../assets/img/certs/icar.png" alt="icar-cert">
       </a>
     </li>
-    <li>
+    <li class="flex-sm-wrap">
       <a href="https://midatlantic.aaa.com/auto-repair">
         <img src="../../../assets/img/certs/aaa.png" alt="aaa-cert">
       </a>
     </li>
-    <li>
+    <li class="flex-sm-wrap">
       <a href="http://www.fixhybrid.com/acdc-qual/"><img src="../../../assets/img/certs/acdc.png" alt="acdc-cert">
       </a>
     </li>
-    <li>
+    <li class="flex-sm-wrap">
       <a href="http://www.mva.maryland.gov/_resources/docs/MSP-Initial-Application-For-Maryland-Authorized-Inspection-Station-License.pdf">
         <img src="../../../assets/img/certs/ais.png" alt="ais-cert">
       </a>
     </li>
-    <li>
+    <li class="flex-sm-wrap">
       <a href="http://mde.maryland.gov/programs/air/mobilesources/pages/VEIP.aspx">
         <img src="../../../assets/img/certs/greencar.png" alt="green-cert">
       </a>
     </li>
-    <li><a href="https://www.angieslist.com/companylist/us/md/columbia/columbia-auto-body-reviews-2340110.htm">
+    <li class="flex-sm-wrap">
+      <a href="https://www.angieslist.com/companylist/us/md/columbia/columbia-auto-body-reviews-2340110.htm">
         <img src="../../../assets/img/certs/angies.png" alt="angies-cert">
     </a></li>
     <li>
@@ -42,39 +97,45 @@
   </ul>
 </div>
 </div>
-<div id="bar"></div>
-
-<h1>What People Are Saying</h1>
-
+<div class="bar"></div>
 <!-- <button class"btn btn-danger"></button> -->
 <div class="container">
-<div class="row">
-  <div class="col-4 box">
-    <p>
-      "Seitan 3 wolf moon id proident, jean shorts meggings slow-carb eiusmod 
-      est four dollar toast."
-    </p>
-    <p>
-      - John Lippold Sr
-    </p>
+  <div class="row justify-content-center">
+      <h1 class="flex-sm-wrap">Testimonials</h1>
   </div>
-  <div class="col-4 box">
+    
+<div class="row flex-wrap">
+  <div class="col-sm box flex-sm-wrap justify-content-center">
     <p>
-      "Seitan 3 wolf moon id proident, jean shorts meggings slow-carb eiusmod 
-      est four dollar toast."
+      "Unicorn vexations ex wingardium kinfolk prism vegan satie pinterest. Edison flora silesiaca lyft glossier."
     </p>
-    <p>
-        - Katherine O'Shizzle
-    </p>
+    <div class="container">
+      <div class= "row justify-content-end">
+        <p class="name">- Jihfandria Lindriguez</p>
+      </div>
+    </div>
   </div>
-  <div class="col-4 box">
+  
+  <div class="col-sm box flex-sm-wrap justify-content-center">
     <p>
       "Seitan 3 wolf moon id proident, jean shorts meggings slow-carb eiusmod 
       est four dollar toast."
     </p>
+    <div class="container">
+        <div class= "row justify-content-end">
+          <p class="name">- Katherine O'Shizzle</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-sm box flex-sm-wrap justify-content-center">
     <p>
-        - Frederick Corrales III
+      "Irony sriracha skateboard, pinterest marfa hella plaid etsy pickled non pug coloring book chia four loko."
     </p>
+    <div class="container">
+      <div class= "row justify-content-end">
+        <p class="name">- Frederick Corrales III</p>
+      </div>
+    </div>
   </div>
 </div>
 </div>

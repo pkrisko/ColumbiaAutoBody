@@ -10,16 +10,17 @@
 }
 
 h1 {
-    margin: 20px auto;
-    width: 500px;
+    margin: 0 auto;
+    /* width: 550px; */
     text-align: center; 
 }
 
-img {
-    height: 90px;
+a img {
+    height: 70px;
 }
 
 #certs {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -33,24 +34,19 @@ img {
     display: inline;
 }
 
-#bar {
-    height: 5px;
-    width: 100%;
-    padding: 0 50%;
-    background-color: #070707;
-    margin: 50px 0;
-}
-
 #revs {
     display : flex;
     justify-content: space-around;
 }
 
-.box {
-    width: 30%;
-    /* height: 200px; */
+.name {
+    color: gray;
+    margin-right: 20px;
+}
+
+.box p {
     margin-bottom: 50px;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 ul li img:hover {

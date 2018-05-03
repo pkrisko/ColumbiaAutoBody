@@ -12,7 +12,8 @@ import { AutoTeamComponent } from './auto/auto-team/auto-team.component';
 import { AutoBodyShopComponent } from './auto/auto-body-shop/auto-body-shop.component';
 import { AutoContactUsComponent } from './auto/auto-contact-us/auto-contact-us.component';
 import { AutoReviewsComponent } from './auto/auto-reviews/auto-reviews.component';
-
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 // Serviceworker Variables
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -32,6 +33,8 @@ import { environment } from '../environments/environment';
   imports: [
     AppRoutingModule,
     BrowserModule,
+    AngularFontAwesomeModule,
+    NgbModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production})
   ],
   providers: [],

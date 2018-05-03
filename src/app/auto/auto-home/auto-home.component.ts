@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-auto-home',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AutoHomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(config: NgbCarouselConfig) { }
 
   ngOnInit() {
   }

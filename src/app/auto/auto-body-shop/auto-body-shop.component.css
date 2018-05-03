@@ -1,8 +1,6 @@
-#wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+h1 {
+    margin-top: 60px;
 }
-#wrapper img {
-    width: 480px;
+ul {
+    margin-left: 40px;
 }
